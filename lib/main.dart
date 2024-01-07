@@ -1,4 +1,4 @@
-import 'dart:async';
+//import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:grocery_app_12172023/pages/splash_screen.dart';
@@ -14,11 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-    theme: ThemeData(primaryColor: Colors.black),
-      home:SplashScreen(),
-
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primaryColor: Colors.black),
+      home: const SplashScreen(),
     );
   }
-  
 }
-
